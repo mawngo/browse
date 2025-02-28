@@ -58,7 +58,7 @@ git clone https://github.com/onweru/browse.git themes/browse
 ### Option C: Manual install
 
 If you do not want to use git, you can manually
-**[download ZIP](https://github.com/onweru/browse/archive/master.zip)** and extract it into the `themes/browse`
+**[download ZIP](https://github.com/mawngo/browse/archive/master.zip)** and extract it into the `themes/browse`
 within your Hugo site.
 
 ---
@@ -81,6 +81,6 @@ the configuration parameters to run the theme for the first time. Before adding 
 sure to edit the `theme` param inside the config file and check that the theme works.
 
 For information about common customization settings, see [Customization page]({{< relref "/docs/customization.md" >}} "Browse theme customization").
-To view our example configuration, visit [demo config](https://github.com/onweru/browse/blob/master/exampleSite/config.toml).
+To view our example configuration, visit [demo config](https://github.com/mawngo/browse/blob/master/exampleSite/config.toml).
 
-[Edit this page on GitHub](https://github.com/onweru/browse/blob/master/exampleSite/content/docs/getting-started.md)
+[Edit this page on GitHub](https://github.com/mawngo/browse/blob/master/exampleSite/content/docs/getting-started.md)

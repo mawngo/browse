@@ -1,8 +1,8 @@
 name = "Browse"
 license = "GPLv2"
-licenselink = "https://github.com/onweru/browse/blob/master/LICENSE.md"
+licenselink = "https://github.com/mawngo/browse/blob/master/LICENSE.md"
 description = "Browse is a responsive, clean and content-focused Hugo theme."
-homepage = "https://github.com/onweru/browse/"
+homepage = "https://github.com/mawngo/browse/"
 demosite = "https://browse.neuralvibes.com/"
 tags = ["blog", "responsive", "multilingual", "rss", "darkmode"]
 features = ["blog", "responsive", "multilingual", "rss", "darkmode"]

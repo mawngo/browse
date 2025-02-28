@@ -28,7 +28,7 @@ You could go with the options right below.
 This option enables you to load browse theme as a hugo module. First things first, ensure you have `go` binary [installed on your machine](https://golang.org/doc/install).
 
 ```shell
-$ git clone https://github.com/onweru/browse/
+$ git clone https://github.com/mawngo/browse/
 cd browse/exampleSite/
 hugo server
 ```
@@ -38,7 +38,7 @@ To pull in theme updates, run `hugo mod get -u ./...` from the theme folder. If 
 {{< tip "warning" >}}
 The exampleSite uses the theme as a hugo module by default.
 
-If you choose __Option 2__ or __Option 3__ below, ensure you edit [these lines in the hugo.toml file](https://github.com/onweru/browse/blob/b3e30e0816621223224897edc45eeeabd0d9cd16/exampleSite/hugo.toml#L4-L7) as advised on the comments. Else, you will not be able to pull theme updates.
+If you choose __Option 2__ or __Option 3__ below, ensure you edit [these lines in the hugo.toml file](https://github.com/mawngo/browse/blob/b3e30e0816621223224897edc45eeeabd0d9cd16/exampleSite/hugo.toml#L4-L7) as advised on the comments. Else, you will not be able to pull theme updates.
 {{< /tip >}}
 
 ### Option 2 (recommended)
@@ -49,7 +49,7 @@ Generate a new Hugo site and add this theme as a Git submodule inside your theme
 hugo new site yourSiteName
 cd yourSiteName
 git init
-git submodule add https://github.com/onweru/browse/ themes/browse
+git submodule add https://github.com/mawngo/browse/ themes/browse
 cp -a themes/browse/exampleSite/* .
 ```
 
@@ -66,7 +66,7 @@ Hurray!
 You can run your site directly from the `exampleSite`. To do so, use the following commands:
 
 ```bash
-git clone https://github.com/onweru/browse/
+git clone https://github.com/mawngo/browse/
 cd browse/exampleSite/
 hugo server --themesDir ../..
 ```
@@ -75,7 +75,7 @@ hugo server --themesDir ../..
 Although, option 3 is great for quick testing, it is somewhat problematic when you want to update your theme. You would need to be careful not to overwrite your changes.
 {{< /tip >}}
 
-Once set, jump over to the [hugo.toml](https://github.com/onweru/browse/blob/afdf1cd76408aeac11547a6abd51bdc5138a295f/exampleSite/hugo.toml#L4-L7) file and start configuring your site.
+Once set, jump over to the [hugo.toml](https://github.com/mawngo/browse/blob/afdf1cd76408aeac11547a6abd51bdc5138a295f/exampleSite/hugo.toml#L4-L7) file and start configuring your site.
 
 ## Configuration
 Please see the config files inside `exampleSite/config/_default`
@@ -203,10 +203,10 @@ If you prefer using Matomo Analytics, configure the `matomo_analytics` global pa
 ## Contributing
 
 Have you found a bug or got an idea for a new feature? Feel free to use the
-[issue tracker](https://github.com/onweru/browse/issues) to let me know. Or make directly a
-[pull request](https://github.com/onweru/browse/pulls), but please respect the following
-[contributing guide](https://github.com/onweru/browse/blob/master/CONTRIBUTING.md).
+[issue tracker](https://github.com/mawngo/browse/issues) to let me know. Or make directly a
+[pull request](https://github.com/mawngo/browse/pulls), but please respect the following
+[contributing guide](https://github.com/mawngo/browse/blob/master/CONTRIBUTING.md).
 
 ## License
 
-This theme is released under the [GPLv2 license](https://github.com/onweru/browse/blob/master/LICENSE.md).
+This theme is released under the [GPLv2 license](https://github.com/mawngo/browse/blob/master/LICENSE.md).

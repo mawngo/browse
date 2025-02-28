@@ -29,7 +29,7 @@ Main features:
 * Custom Google Fonts support, MathJax, Table of Contents, SVG icons and much more…
 
 Learn more on [GitHub](https://github.com/onweru/browse). Browse theme is released under the
-[GPLv2 license](https://github.com/onweru/browse/blob/master/LICENSE.md).
+[GPLv2 license](https://github.com/mawngo/browse/blob/master/LICENSE.md).
 
 ## About Hugo
 
