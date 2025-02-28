@@ -4,7 +4,7 @@
 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
 {{- $options := (dict "targetPath" "css/styles.css" "outputStyle" "compressed" "enableSourceMap" "true") -}}
-{{- $styles := resources.Get "sass/index.scss" | resources.ExecuteAsTemplate "sass/index.scss" . | resources.ToCSS $options | resources.Fingerprint "sha512" }}
+{{- $styles := resources.Get "sass/index.scss" | resources.ExecuteAsTemplate "sass/index.scss" . | css.Sass $options | resources.Fingerprint "sha512" }}
 <link rel = 'stylesheet' href = '{{ $styles.RelPermalink }}' integrity = '{{ $styles.Data.Integrity }}'>
 
 {{ range site.Params.customCSS -}}
