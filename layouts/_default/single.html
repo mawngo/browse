@@ -4,7 +4,7 @@
 		<header class="post__header">
 			<h1 class="post__title">{{ .Title }}</h1>
 			{{- with .Params.lead }}
-				{{ if not eq . "-" }}
+				{{ if not (eq . "-") }}
 					<p class="post__lead">{{ . }}</p>
 				{{- end }}
 			{{- else with .Params.description }}
