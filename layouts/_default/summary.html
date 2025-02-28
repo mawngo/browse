@@ -7,7 +7,11 @@
 			</a>
 		</h2>
 		{{- with .Params.lead }}
-		<p class="list__lead post__lead">{{ . }}</p>
+		{{ if not (eq . "-") }}
+			<p class="list__lead post__lead">{{ . }}</p>
+		{{- end }}
+		{{- else with .Params.description }}
+			<p class="list__lead post__lead">{{ . }}</p>
 		{{- end }}
 		{{ with partial "post_meta.html" . -}}
 		<div class="list__meta meta">{{ . }}</div>

@@ -8,7 +8,7 @@
 					<p class="post__lead">{{ . }}</p>
 				{{- end }}
 			{{- else with .Params.description }}
-			<p class="post__lead">{{ . }}</p>
+				<p class="post__lead">{{ . }}</p>
 			{{- end }}
 			{{ with partial "post_meta.html" . -}}
 			<div class="post__meta meta">{{ . }}</div>
