@@ -7,7 +7,7 @@
 				{{ if not eq . "-" }}
 					<p class="post__lead">{{ . }}</p>
 				{{- end }}
-			{{- else .Params.description }}
+			{{- else with .Params.description }}
 			<p class="post__lead">{{ . }}</p>
 			{{- end }}
 			{{ with partial "post_meta.html" . -}}
