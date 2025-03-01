@@ -31,7 +31,7 @@
 
 <link rel="shortcut icon" href="{{ "favicon.ico" | relURL }}">
 {{- if hugo.IsProduction }}
-  {{- if hasPrefix site.GoogleAnalytics "G-" }}
+  {{- if .Site.Config.Services.GoogleAnalytics.ID }}
     {{ template "_internal/google_analytics.html" . }}
   {{- end }}
 {{- end }}
